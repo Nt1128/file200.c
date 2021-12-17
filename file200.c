@@ -20,7 +20,7 @@ int main()
         for (j=i+1; j<size; j++)
             if (strcmp(gold[i], gold[j]) > 0)
             {
-                // 뮨자열의 시작주소를 저장한 gold[i]와 gold[j]를 교환
+                // 문자열의 시작주소를 저장한 gold[i]와 gold[j]를 교환
                 temp = gold[i];
                 gold[i] = gold[j];
                 gold[j] = temp;
